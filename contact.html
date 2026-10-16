@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us | ZeroVex Vend</title>
+<meta name="description" content="Contact ZeroVex Vend to get a free, fully managed snack and drink vending machine at your location.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/favicon-192.png">
+<link rel="icon" href="assets/favicon/favicon.ico" sizes="48x48">
+<link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+<meta name="theme-color" content="#0E5C63">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="index.html"><img src="assets/img/logo.png" alt="ZeroVex Vend" width="138" height="44"></a>
+    <nav aria-label="Main">
+      <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false" id="mb">&#9776;</button>
+      <ul id="nl"><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="index.html#how">How it works</a></li><li><a href="index.html#why">Why us</a></li><li><a href="index.html#faq">FAQ</a></li><li><a class="btn" href="contact.html">Contact us</a></li></ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<section class="contact" id="contact">
+  <div class="wrap grid">
+    <div>
+      <h1 class="ph">Tell us about your location</h1>
+      <p class="lede">Send a few details and we will reply within one business day to set up a short visit.</p>
+      <div class="direct">
+        <span>Call or text: <a href="tel:+10000000000">(000) 000-0000</a></span>
+        <span>Email: <a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a></span>
+        <span class="note">Serving [Your City / Region] and nearby areas.</span>
+      </div>
+    </div>
+    <form id="f">
+      <div class="two">
+        <label>Your name<input name="name" required autocomplete="name"></label>
+        <label>Business or property<input name="biz" required autocomplete="organization"></label>
+      </div>
+      <div class="two">
+        <label>Email<input type="email" name="email" required autocomplete="email"></label>
+        <label>Phone<input type="tel" name="phone" autocomplete="tel"></label>
+      </div>
+      <div class="two">
+        <label>Location type
+          <select name="type" required>
+            <option value="">Choose one</option>
+            <option>Apartment community</option><option>Warehouse or factory</option><option>Construction site</option>
+            <option>School or college</option><option>Gym or fitness studio</option><option>Office</option>
+            <option>Auto shop or dealership</option><option>Hotel or motel</option><option>Medical office</option><option>Other</option>
+          </select>
+        </label>
+        <label>People on site (approx.)<input name="people" inputmode="numeric" placeholder="e.g. 60"></label>
+      </div>
+      <label>Anything we should know?<textarea name="msg" rows="3" placeholder="Shifts, dietary needs, where the machine could go"></textarea></label>
+      <button class="btn" type="submit">Contact us</button>
+      <p class="note" id="fn">This opens your email app with the details filled in.</p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; <span id="yr"></span> ZeroVex Vend. All rights reserved.</span>
+    <span>Snack and drink vending for [Your City / Region]</span>
+  </div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
